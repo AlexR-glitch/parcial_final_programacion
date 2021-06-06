@@ -1,0 +1,86 @@
+@import 'variables';
+//area sobre la compañia en la pagina home
+.cuerpo{
+    width: 100%;
+    height: 100%;
+    background: $azul;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    h1{
+        color: $blanco;
+        font-size: 1.7rem;
+        width: 95%;
+        height: fit-content;
+        margin-bottom: 1.5rem;
+    }
+    p{
+        color: $blanco;
+        font-size: 1.1rem;
+        width: 95%;
+        height: fit-content;
+        text-align: justify;
+    }
+}
+
+.galera{
+    width: 100%;
+    height: fit-content;
+    background: $azul;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    .galeria{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .contenidos{
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 1rem;
+            .contenido{
+                overflow: hidden;
+                width: 250px;
+                height: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: .5rem;
+                position: relative;
+                cursor: pointer;
+                border-radius: 10px;
+                &::after{
+                    content: ´´;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: $sombreado;
+                    opacity: 0;
+                    transition: ease-in-out .25s;
+                }
+                &:hover{
+                    &::after{
+                        opacity: .6;
+                    }
+                    img{
+                        height: 110%;
+                    }
+                }
+                img{
+                    height: 100%;
+                    transition: ease-in-out .25s;
+                    }
+            }
+        }
+    }
+}
