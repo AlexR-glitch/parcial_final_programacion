@@ -1,6 +1,6 @@
 export default function Formulario(){
     return(
-        <div className="contactado">
+        <section className="contactado">
             <div className="redes">
                 <h1>Puedes contactarnos por nuestras redes sociales</h1>
                 <div className="social">
@@ -11,11 +11,12 @@ export default function Formulario(){
                 </div>
             </div>
             <div className="forma">
-                <input type="text" name="Nombres" value="Nombres" id="" />
-                <input type="text" name="Apellidos" value="Apellidos" id="" />
-                <input type="email" name="Email" value="Email" id="" />
-                <input type="text" value="Escribe aqui..." id="textual" />
-                <input type="submit" value="Enviar" /></div>
-        </div>
+                <input type="text" name="" placeholder="Nombre" id="" />
+                <input type="text" name="" placeholder="Apellidos" id="" />
+                <input type="email" name="" placeholder="Email" id="" />
+                <textarea name="texto" id="" cols="2" rows="9" placeholder="Escriba algo..."></textarea>
+                <input type="submit" value="Enviar" />
+            </div>
+        </section>
     )
 }
