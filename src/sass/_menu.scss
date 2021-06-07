@@ -1,8 +1,7 @@
 @import 'variables';
 
-nav{
-    margin: 0;
-    padding: 0;
+.menu{
+    padding: 1rem;
     width: 100%;
     height: 4rem;
     background: $azul;
@@ -57,6 +56,59 @@ nav{
             &:hover{
                 background: $rojo;
                 clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+            }
+        }
+    }
+}
+.menumovil{
+    display: none;
+}
+.enlacesmoviles{
+    display: none;
+}
+
+@media screen and (min-width: 411px) {
+    .menu{
+        display: none;
+    }
+    .menumovil{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        padding: .5rem;
+        align-items: center;
+        .contenedor{
+            width: 100%;
+            justify-content: flex-start;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            .logo{
+                width: 50%;
+                height: 80px;
+                h1{
+                    font-size: 1.3rem;
+                    width: fit-content;
+                }
+                h2{
+                    font-size: 1.3rem;
+                    width: fit-content;
+                }
+            }
+            .btn{
+                width: 50%;
+                display: flex;
+                justify-content: right;
+                height: fit-content;
+                padding: 1rem;
+                i{
+                    font-size: 1.9rem;
+                    padding: .5rem;
+                    width: fit-content;
+                    height: fit-content;
+                    color: $blanco;
+                }
             }
         }
     }

@@ -4,7 +4,7 @@ export default function Footer() {
     return(
     <>
         <hr />
-            <footer>
+            <footer className="piedePagina">
                 <div className="logo">
                     <h1>AIRWAY</h1>
                     <h2>LINES</h2>

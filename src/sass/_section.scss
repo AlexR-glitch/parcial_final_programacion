@@ -25,7 +25,7 @@
         text-align: justify;
     }
 }
-
+//section de la galeria
 .galera{
     width: 100%;
     height: fit-content;
@@ -87,4 +87,18 @@
 
 .Illo{
     background: $azul;
+}
+
+@media screen and (min-width: 411px) {
+    .cuerpo{
+        padding: 1rem 2rem;
+        h1{
+            font-size: 1rem;
+            margin-bottom: 1.2rem;
+        }
+        p{
+            color: $blanco;
+            font-size: 1.1rem;
+        }
+    }
 }

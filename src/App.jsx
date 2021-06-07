@@ -6,6 +6,7 @@ import{
 //componentes
 import Menu from './components/menu';
 import Footer from './components/footer';
+import MenuMovil from './components/menuMovil';
 //paginas
 import Home from './pages/Home';
 import About from './pages/About';
@@ -15,6 +16,7 @@ export default function App() {
   return(
     <Router>
     <Menu />
+    <MenuMovil/>
     <Switch>
       <Route path = '/' exact> <Home/> </Route>
       <Route path = '/About'exact> <About/> </Route>
