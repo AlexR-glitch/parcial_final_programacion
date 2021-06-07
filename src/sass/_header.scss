@@ -246,3 +246,125 @@ header{
     }
 }
 }
+
+@media screen and(min-width: 1000px){
+    header{
+        width: 100%;
+        height: 100%;
+        background: $azul;
+        border-style: none;
+    
+        //main_header styles
+        .container{
+            width: 100%;
+            background: $rojo;
+            display: flex;
+            align-items: flex-start;
+            clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 92%, 100% 92%, 100% 0%);
+            border-style: none;
+            .inner{
+                width: 100%;
+                height: 99%;
+                background: url(https://images.pexels.com/photos/2007401/pexels-photo-2007401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+                background-size: cover;
+                background-position: center;
+                clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 92%, 100% 92%, 100% 0%);
+                border-style: none;
+                .lema{
+                    width: 50%;
+                    height: 90%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 1rem;
+                    h1{
+                        font-size: 2rem;
+                        width: 90%;
+                        height: fit-content;
+                        color: $rojo;
+                        margin-bottom: 1rem;
+                    }
+                    button{
+                        width: 30%;
+                        height: 3rem;
+                        padding: .5rem 1rem;
+                        background: $rojo;
+                        border-style: none;
+                        border-radius: 10px;
+                        .target{
+                            font-weight:bold ;
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                    }
+                }
+            }
+        }
+        //header_menor
+        .texto{
+            width: 100%;
+            background: $rojo;
+            display: flex;
+            align-items: flex-start;
+            clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 92%, 100% 92%, 100% 0%);
+            border-style: none;
+            .interior{
+                width: 100%;
+                height: 99%;
+                background: url(https://images.pexels.com/photos/249581/pexels-photo-249581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+                background-size: cover;
+                background-position: center;
+                clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 92%, 100% 92%, 100% 0%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h1{
+                    font-size: 2.5rem;
+                    width: 80%;
+                    height: fit-content;
+                    color: $rojo;
+                    text-align: center;
+                }
+            }
+        }
+    
+    }
+    
+    
+        //area de relleno de la zona de contacto 
+        .CuidaoChico{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            background: $rojo;
+            clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 94%, 100% 94%, 100% 0%);
+            .quemao{
+                width: 100%;
+                height: 98.5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: url(../bg03.jpg);
+                background-size: cover;
+                background-position: bottom;
+                clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 94%, 100% 94%, 100% 0%);
+                h1{
+                    width: 50%;
+                    height: fit-content;
+                    text-align: center;
+                    color: $rojo;
+                    margin-bottom: 1.5rem;
+                    font-size: 2.5rem;
+                }
+                p{
+                    width: 75%;
+                    height: fit-content;
+                    text-align: justify;
+                    color: $azul;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+}

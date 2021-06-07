@@ -102,3 +102,67 @@ hr{
         
     }
 }
+
+@media screen and(min-width: 1000px){
+    .piedePagina{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background:  $rojo;
+        border-top: solid $blanco;
+        border-width: .4rem;
+        .logo{
+            width: 50%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            padding: 1rem 1rem 1rem 4rem;
+            justify-content: flex-start;
+            align-items: center;
+            h1{
+                color:$blanco;
+                font-weight: lighter;
+                height: fit-content;
+                width: fit-content;
+                font-size: 2rem;
+                margin-right: .5rem;
+                font-style: italic;
+            }
+            h2{
+                color:$blanco;
+                font-weight: bold;
+                height: fit-content;
+                width: fit-content;
+                font-size: 2rem;
+                font-style: italic;
+            }
+        }
+        .derecha{
+            width: 50%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 4rem 1rem 1rem;
+            justify-content: flex-end;
+            align-items: flex-end;
+            h1{
+                color:$blanco;
+                font-weight: bold;
+                height: fit-content;
+                width: fit-content;
+                font-size: 1.5rem;
+                margin-right: .5rem;
+            }
+            h2{
+                color:$blanco;
+                font-weight: lighter;
+                height: fit-content;
+                width: fit-content;
+                font-size: 1rem;
+            }
+        }
+    }
+}
