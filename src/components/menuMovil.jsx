@@ -14,6 +14,7 @@ export default function MenuMovil() {
                     </div>
                 </div>
             </nav>
+            <div className="blur"></div>
             <div className="enlacesmoviles">
                 <Link to="/" className="cadena">Home</Link>
                 <Link to="/About" className="cadena">Acerca de</Link>
