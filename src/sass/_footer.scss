@@ -65,9 +65,10 @@ hr{
     border-style: none;
     position: initial;
     z-index: -1;
+    height: 100vh;
 }
 
-@media screen and (min-width: 411px) {
+@media screen and (min-width: 320px) {
     .piedePagina{
         width: 100%;
         flex-direction: column;
@@ -92,5 +93,12 @@ hr{
                 text-align:center;
             }
         }
+        hr{
+            border-style: none;
+            position: initial;
+            z-index: -1;
+            height: auto;
+        }
+        
     }
 }

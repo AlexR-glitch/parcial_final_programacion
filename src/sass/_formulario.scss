@@ -68,9 +68,10 @@
     }
 }
 
-@media screen and (min-width: 411px){
+@media screen and (min-width: 320px){
     .contactado{
         flex-direction: column-reverse;
+        height: 105%;
         .redes{
             width: 100%;
             height: 20%;
