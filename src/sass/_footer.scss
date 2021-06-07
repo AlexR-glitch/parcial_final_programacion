@@ -63,6 +63,8 @@
 }
 hr{
     border-style: none;
+    position: initial;
+    z-index: -1;
 }
 
 @media screen and (min-width: 411px) {

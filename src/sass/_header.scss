@@ -87,7 +87,7 @@ header{
     //area de relleno de la zona de contacto 
     .CuidaoChico{
         width: 100%;
-        height: aut;
+        height: 100%;
         display: flex;
         background: $rojo;
         clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 92%, 100% 92%, 100% 0%);
@@ -158,5 +158,38 @@ header{
                     }
                 }
             }
+
+//header_menor
+        .texto{
+            height: 100%;
+            clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 97%, 100% 97%, 100% 0%);
+            .interior{
+                clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 97%, 100% 97%, 100% 0%);
+                h1{
+                    font-size: 1.6rem;
+                    width: 85%;
+                    margin-bottom: 5rem;
+                }
+            }
+        }
+    }
+
+    //area de relleno de la zona de contacto 
+    .CuidaoChico{
+        clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 97%, 100% 97%, 100% 0%);
+        .quemao{
+            background: url(../bg05.jpg);
+            clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 97%, 100% 97%, 100% 0%);
+            background-size: cover;
+            background-position: bottom;
+            h1{
+                margin-bottom: 1.2rem;
+                font-size: 1.5rem;
+            }
+            p{
+                width: 70%;
+                font-size: 1rem;
+            }
+        }
     }
 }

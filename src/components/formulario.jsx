@@ -15,7 +15,7 @@ export default function Formulario(){
                 <input type="text" name="" placeholder="Apellidos" id="" />
                 <input type="email" name="" placeholder="Email" id="" />
                 <textarea name="texto" id="" cols="2" rows="9" placeholder="Escriba algo..."></textarea>
-                <input type="submit" value="Enviar" />
+                <input type="submit" value="Enviar" className="send" />
             </div>
         </section>
     )

@@ -98,7 +98,20 @@
         }
         p{
             color: $blanco;
-            font-size: 1.1rem;
+            font-size: 1rem;
+        }
+    }
+}
+
+
+//section de la galeria
+.galera{
+    .galeria{
+        .contenidos{
+            .contenido{
+                width: 150px;
+                height: 82px;
+            }
         }
     }
 }
