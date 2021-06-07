@@ -194,3 +194,55 @@ header{
         }
     }
 }
+
+@media screen and (min-width: 700px) {
+    header{
+//main_header styles
+    .container{
+        clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 96%, 100% 96%, 100% 0%);
+        .inner{
+            background-position: center;
+            clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 96%, 100% 96%, 100% 0%);
+            .lema{
+                width: 90%;
+                align-items: flex-start;
+                margin-top: 9rem;
+                margin-left: 2rem;
+                h1{
+                font-size: 2.5rem;
+                    width: 100%;
+                    margin-bottom: 3rem;
+                }
+                button{
+                    width: 35%;
+                    height: 4rem;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+
+//header_menor
+    .texto{
+        .interior{
+            h1{
+                font-size: 2rem;
+                width: 85%;
+                margin-bottom: 5rem;
+            }
+        }
+    }
+}
+
+//area de relleno de la zona de contacto 
+.CuidaoChico{
+    .quemao{
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+}
+}

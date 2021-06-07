@@ -119,3 +119,35 @@
         }
     }
 }
+
+
+@media screen and (min-width: 700px) {
+    .cuerpo{
+        padding: 3rem;
+        height: 100%;
+        align-items: center;
+        h1{
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+//section de la galeria
+.galera{
+    height: 100%;
+    padding: .5rem .5rem;
+    .galeria{
+        .contenidos{
+            align-items: center;
+            .contenido{
+                width: 200px;
+                height: 180px;
+                margin: .5rem;
+            }
+        }
+    }
+}

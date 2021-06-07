@@ -114,3 +114,31 @@
         }
     }
 }
+
+@media screen and (min-width: 700px) {
+    .menu{
+    display: none;
+    }
+    .menumovil{
+        width: 100%;
+        display: flex;
+        padding: 0;
+        .contenedor{
+            padding: .5rem;
+            .logo{
+                justify-content: left;
+                h1{
+                    font-size: 2.3rem;
+                }
+                h2{
+                    font-size: 2.3rem;
+                }
+            }
+            .btn{
+                i{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
