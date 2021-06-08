@@ -1,0 +1,1 @@
+export {defaul as HeaderM} from './main_header';

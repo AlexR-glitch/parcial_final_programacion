@@ -1,5 +1,5 @@
-import Formulario from '../components/formulario';
-import Advertencia from '../components/cuidao';
+import {Formulario} from '../components/Formulario';
+import {Advertencia} from '../components/ZonaAgregada';
 
 export default function Contactos() {
     return(

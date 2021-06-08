@@ -1,0 +1,1 @@
+export {defaul as Formulario} from './formulario';

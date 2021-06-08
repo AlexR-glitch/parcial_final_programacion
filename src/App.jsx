@@ -1,12 +1,13 @@
+import './sass/App.scss';
 import{
   BrowserRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
 //componentes
-import Menu from './components/menu';
-import Footer from './components/footer';
-import MenuMovil from './components/menuMovil';
+import {Menu} from './components/Menu';
+import {Footer} from './components/Footer';
+import {MenuMovil} from './components/MenuMovil';
 //paginas
 import Home from './pages/Home';
 import About from './pages/About';

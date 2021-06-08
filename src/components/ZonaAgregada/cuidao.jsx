@@ -1,3 +1,4 @@
+
 export default function Advertencia() {
     return(
         <header className="CuidaoChico">

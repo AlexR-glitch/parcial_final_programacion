@@ -1,0 +1,72 @@
+@import 'variables';
+/*
+header{
+    width: 100%;
+    height: 100%;
+    background: $azul;
+    border-style: none;
+    
+    .texto{
+        width: 100%;
+        background: $rojo;
+        display: flex;
+        align-items: flex-start;
+        clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 92%, 100% 92%, 100% 0%);
+        border-style: none;
+        .interior{
+            width: 100%;
+            height: 99%;
+            background: url(https://images.pexels.com/photos/249581/pexels-photo-249581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            background-size: cover;
+            background-position: center;
+            clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 92%, 100% 92%, 100% 0%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size: 2.5rem;
+                width: 80%;
+                height: fit-content;
+                color: $rojo;
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+
+    @media screen and (min-width: 320px) {
+        header{
+            width: 100%;
+            height: 100%;
+            background: $azul;
+            border-style: none;
+//header_menor
+        .texto{
+            height: 100%;
+            clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 97%, 100% 97%, 100% 0%);
+            .interior{
+                clip-path: polygon(0% 0%, 0% 100%, 53% 100%, 63% 97%, 100% 97%, 100% 0%);
+                h1{
+                    font-size: 1.6rem;
+                    width: 85%;
+                    margin-bottom: 5rem;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 700px) {
+    header{
+//header_menor
+    .texto{
+        .interior{
+            h1{
+                font-size: 2rem;
+                width: 85%;
+                margin-bottom: 5rem;
+            }
+        }
+    }
+}

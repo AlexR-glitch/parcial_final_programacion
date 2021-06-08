@@ -1,3 +1,5 @@
+import './HeaderMenor.scss'
+
 export default function HeaderD(){
     return(
         <header>

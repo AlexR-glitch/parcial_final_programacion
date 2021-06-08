@@ -1,5 +1,5 @@
-import HeaderM from '../components/main_header';
-import Nosotros from '../components/nosotros';
+import {HeaderM} from '../components/Header_Mayor';
+import {Nosotros} from '../components/SeccionNosotros';
 
 export default function Home() {
     return(
